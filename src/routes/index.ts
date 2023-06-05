@@ -1,8 +1,8 @@
-import { Request, Response, Router } from 'express';
-import { listRouter } from './list'
+import { Request, Response, Router } from "express"
+import { listRouter } from "./list"
 
-const router = Router();
+const router = Router()
 
-router.use('/list', listRouter);
+router.use("/list", listRouter)
 
 export default router
